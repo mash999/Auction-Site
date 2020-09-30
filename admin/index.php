@@ -1,0 +1,1 @@
+<?php header("Location:views/edit-contents.php");?>

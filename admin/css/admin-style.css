@@ -1,0 +1,512 @@
+
+body
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+.top-bar
+{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 80px;
+	background: #0B8389;
+	padding-left: 5%;
+	padding-right: 5%;
+	z-index: 999;
+}
+
+
+.top-bar h3
+{
+	float: left;
+	width: 33.33333%;
+	height: auto;
+	color: #fff;
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-family: 'Roboto Condensed',Tahoma,sans-serif;
+	line-height: 80px;
+}
+
+
+nav
+{
+	position: fixed;
+	left: 0;
+	top: 90;
+	width: 15.5%;
+	height: calc(100vh - 100px);
+	border-right: 1px dashed #0B8389;
+	font-family: 'helvetica',sans-serif;
+}
+
+
+nav h4
+{
+	font-size: 15px;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	color: #0B8389;
+	box-sizing: border-box;
+	padding-left: 29%;
+}
+
+
+nav ul 
+{
+	box-sizing: border-box;
+	padding-left: 28%;
+}
+
+
+nav ul li 
+{
+	list-style: none;
+	margin-top: 12px;
+}
+
+
+nav a .fa
+{
+	width: 15px;
+	margin-right: 5px;
+}
+
+
+nav a
+{
+	text-transform: capitalize;
+	font-size: 13px;
+	color: #0B8389;
+	text-decoration: none;
+}
+
+
+.right-container
+{
+	position: absolute;
+	right: 2%;
+	top: 90;
+	width: 80.5%;
+	min-height: calc(100vh - 100px);
+	height: auto;
+	box-sizing: border-box;
+	padding-top: 25px;
+	padding-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************** Admin Approval *****************/
+/*										  */
+/******************************************/
+
+
+
+#ap {
+    margin-left: 18%;
+}
+
+.info{
+	font-weight: bold;
+	    margin-left: -17px;
+}
+
+
+#post{
+	 background: #ece8e8;
+}
+
+#ap .btn-default{
+	background: #0B8389;
+	color:white;
+}
+
+
+.sale-post h4{
+    color: #0B8389;
+    font-weight: bold;
+    font-size: 22px;
+   
+}
+
+#request{
+    text-align: right;
+    font-size: 20px;
+    color: #942323;
+    margin-top: -32px;
+    margin-right: 26%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**************** banished members*****************/
+/*										  */
+/******************************************/
+.stylish-input-group .input-group-addon{
+    background: white !important; 
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+
+
+.tr>td{
+	    border: 1px solid #0b8389;
+}
+
+
+
+.table-bordered > tbody > tr > td ,.table-bordered > thead > tr > th{
+      border: 1px solid #0B8389;
+          padding: 31px;
+}
+
+.table>tbody>tr>td{
+	text-align: center;
+	    width: 20%;
+    padding: 2%;
+}
+
+th {
+    text-align: center;
+}
+
+.fraud-table{
+	margin-top: 4%;
+    margin-left: -1%;
+
+}
+
+
+
+.find-mem{
+	    margin-top: 2%;
+    margin-left: 1%;
+}
+
+
+.header-h4{
+	    color: #0B8389;
+    font-size: x-large;
+}
+
+
+
+
+#des {
+    float: left;
+    color: #0B8389;
+    font-size: xx-large;
+    margin-right: 5%;
+}
+
+.sign h5 {
+    color: #0B8389;
+    font-size: x-large;
+}
+
+.rights p{
+	color: #0B8389;
+    font-size: large;
+    text-align: center;
+    margin-top: 10%;
+    
+}
+
+.find {
+    color: #0b8389;
+    float: left;
+    margin-left: -27px;
+    margin-right: 47px;
+}
+
+
+#imaginary_container {
+    margin-left: -19%;
+    margin-top: 1%;
+}
+
+#ok {
+    color: 0B8389;
+    font-size: xx-large;
+    margin-left: 35%;
+}
+
+
+#remove{
+
+    color: 0b8389;
+    font-size: xx-large;
+    margin-left: 76%;
+    margin-top: -10%;
+
+}
+
+.th{
+    background: #0B8389;
+    height: 72px;
+    color: white;
+}
+
+th{
+	text-align: center;
+}
+.table-bordered {
+    border: 1px solid #792020;
+}
+
+
+
+
+/**************** category-list*****************/
+/*										  */
+/******************************************/
+
+
+.btn-default {
+    color: #fff;
+    background-color: #0b8389;
+    border-color: #0B8389;
+}
+
+
+.category h4{
+    float: left;
+    margin-right: 77%;
+}
+
+
+
+
+
+/********************edit-content****************
+****************************************/
+
+
+
+.edit-content{
+    border: 1px solid #0B8389;
+    padding: 1%;
+    text-align: justify;
+    line-height: 24px;
+    margin-top: 4%;
+    border-radius: 6px;
+}
+
+.edit-content p{
+font-size: larger;
+}
+
+.edit h4{
+    font-size: larger;
+}
+
+
+.update{
+	    float: right;
+    margin-top: 2%;
+
+}
+
+
+.edit-contact
+{
+	color: #0B8389;
+	margin-top:10%;
+}
+
+
+
+
+.contact {
+    margin-left: -9%;
+    margin-top: 4%;
+}
+
+
+.up-button{
+
+    width: 120px;
+    float: right;
+}
+
+
+
+/***********admin-setting****************
+*****************************************/
+
+.setting{
+	color: #0B8389;
+}
+
+.admin{
+	    margin-left: -5%;
+    margin-top: 3%;
+}
+
+.setting h4{
+	font-size: xx-large;
+}
+
+
+
+
+
+/**************** Admin post approve *****************/
+/*										  */
+/******************************************/
+
+
+#coming{
+	    text-align: right;
+    font-size: 20px;
+    color: #0B8389;
+     margin-top: -44px;
+    margin-right: 10%;
+}
+
+
+.post-approve h4{
+	color: #0B8389;
+	    font-size: x-large;
+}
+
+
+.glyphicon-bookmark{
+
+	    font-size: xx-large;
+    margin-right: 1%;
+}
+
+
+#coming .glyphicon {
+	top:9px;
+}
+
+.post-des img{
+	width: 91%;
+}
+
+.post-des p{
+margin-top: 3%;
+    width: 91%;
+    text-align: justify;
+    font-size: medium;
+    padding-bottom: 3%;
+    border-bottom: 1px dotted gray;
+}
+
+
+
+
+.post-info{
+	margin-top: 2%;
+}
+
+i{
+	color: #0B8389;
+}
+
+
+.post-info p , .approve p{
+font-weight: 700;
+}
+
+
+.post-info select{
+	    padding: 4px;
+}
+
+.approve{
+	    margin-left: -13px;
+    margin-top: 2%;
+}
+
+
+.approve p{
+	margin-top: 13px;
+}
+
+
+
+
+/**************** add cateogory list *****************/
+/*										  */
+/******************************************/
+
+
+
+.modal-category{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background: rgba(0,0,0,0.7);
+}
+
+.modal-form{
+	margin-top: 33%;
+}
+
+
+.modal-lebel{
+	    color: white;
+    font-size: x-large;
+}
+
+
+.modal-category .btn-default{
+	color: #0a0a0a;
+    background: #ffffff;
+    border-color: #e9eeef;
+    float: right;
+    margin-top: -48px;
+    font-weight: 700;
+}
+
+.modal-category .form-control {
+	    width: 87%;
+}
+
+
+
+
+
+
